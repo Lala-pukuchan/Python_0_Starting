@@ -5,6 +5,7 @@ files = {
     "ex00": ["Hello.py", "output"],
     "ex01": ["format_ft_time.py", "output"],
     "ex02": ["tester.py", "output"],
+    "ex03": ["tester.py", "output"],
 }
 
 current_dir = os.getcwd()
