@@ -8,12 +8,12 @@ def run_test(command):
 
 if __name__ == "__main__":
     print("$> python whatis.py 14")
-    run_test(["python", "whatis.py", "14"])
+    run_test(["python3", "whatis.py", "14"])
     print("$> python whatis.py -5")
-    run_test(["python", "whatis.py", "-5"])
+    run_test(["python3", "whatis.py", "-5"])
     print("$> python whatis.py")
-    run_test(["python", "whatis.py"])
+    run_test(["python3", "whatis.py"])
     print("$> python whatis.py Hi!")
-    run_test(["python", "whatis.py", "Hi!"])
+    run_test(["python3", "whatis.py", "Hi!"])
     print("$> python whatis.py 13 5")
-    run_test(["python", "whatis.py", "13", "5"])
+    run_test(["python3", "whatis.py", "13", "5"])
