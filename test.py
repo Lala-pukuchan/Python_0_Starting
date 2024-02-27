@@ -9,6 +9,7 @@ files = {
     "ex04": ["tester.py", "output"],
     "ex05": ["tester.py", "output"],
     "ex06": ["tester.py", "output"],
+    "ex07": ["tester.py", "output"],
 }
 
 current_dir = os.getcwd()

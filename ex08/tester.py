@@ -6,9 +6,6 @@ from Loading import ft_tqdm
 for elem in ft_tqdm(range(333)):
     sleep(0.005)
 print()
-# for elem in tqdm(range(333)):
-#    sleep(0.005)
-# print()
-
-for i in tqdm(range(int(9e6))):
-    pass
+for elem in tqdm(range(333)):
+    sleep(0.005)
+print()

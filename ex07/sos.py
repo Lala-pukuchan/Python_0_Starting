@@ -42,6 +42,8 @@ morse_code_dict = {
 
 
 def sos():
+    """This function takes a string as an argument and prints the morse code of the string.
+    If the string is not valid, it prints an error message."""
     try:
         if len(sys.argv) != 2:
             raise AssertionError("the arguments are bad")
