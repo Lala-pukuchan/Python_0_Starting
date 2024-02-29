@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ft-package
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://github.com/rukobaya/ft_package
+Author: rukobaya
+Author-email: rukobaya@42.fr
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+- list package
+    ```
+    pip3 list | grep ft  
+    ```
+- uninstall package
+    ```
+    pip3 uninstall
+    ```
+- ensure package is there
+    ```
+    pip3 install setuptools wheel
+    ```
+- create dist
+    ```
+    python setup.py sdist bdist_wheel
+    ```
