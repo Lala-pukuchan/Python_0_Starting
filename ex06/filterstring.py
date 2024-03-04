@@ -3,6 +3,7 @@ from ft_filter import ft_filter
 
 
 def filterstring():
+    """error handling for the arguments"""
     try:
         if len(sys.argv) != 3:
             raise AssertionError("the arguments are bad")

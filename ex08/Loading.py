@@ -2,7 +2,8 @@ import time
 
 
 def ft_tqdm(lst: range) -> None:
-    """This function is a generator that takes a range and returns the elements of the range."""
+    """This function is a generator that takes a range and returns
+    the elements of the range."""
     total = len(lst)
     start = time.time()
     for i, v in enumerate(lst, start=1):

@@ -11,7 +11,8 @@ def building(text):
     print(f"The text contains {len(text)} characters:")
     print(f"{sum(1 for c in text if c.isupper())} upper letters")
     print(f"{sum(1 for c in text if c.islower())} lower letters")
-    print(f"{sum(1 for c in text if c in string.punctuation)} punctuation marks")
+    print(f"{sum(1 for c in text if c in string.punctuation)} "
+          f"punctuation marks")
     print(f"{sum(1 for c in text if c.isspace())} spaces")
     print(f"{sum(1 for c in text if c.isdigit())} digits")
 

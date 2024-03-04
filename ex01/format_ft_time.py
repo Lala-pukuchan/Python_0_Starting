@@ -5,7 +5,8 @@ current_timestamp = f"{time.time():,.4f}"
 current_timestamp_sci = f"{time.time():.2e}"
 
 print(
-    f"Seconds since January 1, 1970: {current_timestamp} or {current_timestamp_sci} in scientific notation"
+    f"Seconds since January 1, 1970: {current_timestamp} "
+    f"or {current_timestamp_sci} in scientific notation"
 )
 
 now = datetime.now()
